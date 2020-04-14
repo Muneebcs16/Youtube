@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+<group android:checkableBehavior="single">
+        <item
+            android:titleCondensed="20"
+            android:id="@+id/nav_home"
+            android:icon="@drawable/profile"
+            android:title="PROFILE" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/key"
+            android:title="CHANGE PASSWORD" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/edit_user"
+            android:title="CHANGE USERNAME" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/email"
+            android:title="CHANGE EMAIL" />
+    <item
+        android:id="@+id/update"
+        android:icon="@drawable/update"
+        android:title="CHECK FOR NEW UPDATE" />
+    <item
+            android:id="@+id/Contact_us"
+            android:icon="@drawable/contact"
+            android:title="CONTACT US" />
+    <item
+        android:id="@+id/team"
+        android:icon="@drawable/team"
+        android:title="TEAM CREDIT" />
+    <item
+        android:id="@+id/send"
+        android:icon="@drawable/ic_menu_send"
+        android:title="SEND EMAIL" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_menu_share"
+        android:title="SHARE APP" />
+</group>
+</menu>
